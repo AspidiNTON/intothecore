@@ -1,0 +1,86 @@
+th {
+    font-size: 28px;
+}
+h1 {
+    font-size: 50px;
+}
+::-webkit-scrollbar {
+    width: 5px;  
+}
+  
+  ::-webkit-scrollbar-thumb {  
+    border-radius: 5px;
+    background: -webkit-gradient(linear,left top,left bottom,from(rgb(118, 47, 255)),to(#bd2ed3));
+}
+body {
+    margin: 0px;
+}
+
+ul li:first-child a {
+	border-left: 2px solid rgb(93, 40, 197);
+}
+
+a:hover {
+	background-color: rgb(93, 40, 197);
+}
+a {
+    color: rgb(118, 47, 255);
+    font-size: 24px;
+	border-bottom: 2px solid;
+	text-decoration: none;
+}
+p {
+    color: white;
+    font-size: 18px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+ul {
+    color: white;
+    font-size: 18px;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+.menu__style__button {
+    color: #fff;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 25px;
+    border-right: 2px solid rgb(93, 40, 197);
+    transition: .3s all ease;
+    display: block;
+    font-size: 24px;
+    border-bottom: 0px solid;
+    text-decoration: none;
+}
+.menu__style__button__selected {
+    color: #fff;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 25px;
+    border-right: 2px solid rgb(93, 40, 197);
+    transition: .3s all ease;
+    display: block;
+    font-size: 28px;
+    border-bottom: 0px solid;
+    text-decoration: none;
+    font-weight: bold;
+}
+@media screen and (orientation:landscape) and (max-device-width: 900px) {
+    html{
+        -webkit-transform: rotate(-90deg);
+           -moz-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+             -o-transform: rotate(-90deg);
+                transform: rotate(-90deg);
+        -webkit-transform-origin: left top;
+           -moz-transform-origin: left top;
+            -ms-transform-origin: left top;
+             -o-transform-origin: left top;
+                transform-origin: left top;
+        width: 320px;
+        position: absolute;
+        top: 100%;
+            left: 0
+    }
+}
