@@ -1,0 +1,106 @@
+th {
+    font-size: 28px;
+}
+h1 {
+    font-size: 50px;
+}
+::-webkit-scrollbar {
+    width: 5px;  
+}
+  
+  ::-webkit-scrollbar-thumb {  
+    border-radius: 5px;
+    background: -webkit-gradient(linear,left top,left bottom,from(rgb(118, 47, 255)),to(#bd2ed3));
+}
+body {
+    margin: 0px;
+}
+
+ul li:first-child a {
+	border-left: 2px solid rgb(93, 40, 197);
+}
+
+a:hover {
+	background-color: rgb(93, 40, 197);
+}
+a {
+    color: rgb(118, 47, 255);
+    font-size: 24px;
+	border-bottom: 2px solid;
+	text-decoration: none;
+}
+p {
+    color: white;
+    font-size: 18px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+ul {
+    color: white;
+    font-size: 18px;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+.menu__style__button {
+    color: #fff;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 25px;
+    border-right: 2px solid rgb(93, 40, 197);
+    transition: .3s all ease;
+    display: block;
+    font-size: 24px;
+    border-bottom: 0px solid;
+    text-decoration: none;
+}
+.menu__style__button__selected {
+    color: #fff;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 25px;
+    border-right: 2px solid rgb(93, 40, 197);
+    transition: .3s all ease;
+    display: block;
+    font-size: 28px;
+    border-bottom: 0px solid;
+    text-decoration: none;
+    font-weight: bold;
+}
+#zatemnenie {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#okno {
+    width: 540px;
+    height: 270px;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid rgb(93, 40, 197);
+    border-radius: 10px;
+    color: rgb(93, 40, 197);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #000000;
+}
+#zatemnenie:target {display: block;}
+.close {
+    display: inline-block;
+    border: 1px solid rgb(93, 40, 197);
+    color: rgb(93, 40, 197);
+    padding: 0 12px;
+    margin: 10px;
+    text-decoration: none;
+    background: #202020;
+    font-size: 24pt;
+    cursor:pointer;
+}
+.close:hover {background: rgb(93, 40, 197);}
